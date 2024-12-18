@@ -145,9 +145,10 @@ public class Runigram {
 
 		for (int i = 0; i < newColor.length; i++) {
 			for (int j = 0; j < newColor[0].length; j++) {
-				newColor[i][j] = image[(int) (i * (double) ogHeight / height)][(int) (j * (double) ogWidth / width)];
+				newColor[i][j] = image[(int)(i * ((double) ogHeight / height))][(int)(j * ((double) ogWidth) / width)];
 			}
 		}
+
 
 
 
